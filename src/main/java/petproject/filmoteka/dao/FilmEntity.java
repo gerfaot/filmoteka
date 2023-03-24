@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "filmoteka_db")
+@Table(name = "films")
 public class FilmEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
